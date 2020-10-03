@@ -55,4 +55,4 @@ Clicking on **Export** will bring up the Export Settings. Here, you can name you
 
 For submission to [themes.thiefmd.com](https://github.com/ThiefMD/themes), you'll have to save all 3. For personal use, just save what you need.
 
-Enjoy Creating!
+Enjoy Creating! [Download Theme Here](/2020/10/02/howtovibes.html)
