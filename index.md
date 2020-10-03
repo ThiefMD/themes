@@ -19,5 +19,5 @@ These themes are compatible with [ThiefMD](https://thiefmd.com), [Ulysses](https
 </div>
 
 <script type="text/javascript">
-    $('.slider').slider({ instructionText:"< | >" });
+    $('.slider').slider({ instructionText: "" });
 </script>
