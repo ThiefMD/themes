@@ -9,5 +9,3 @@ github_username:  ThiefMD
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed

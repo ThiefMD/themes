@@ -16,4 +16,4 @@ themes/
 
 We will generate the preview images after completing the pull request.
 
-`_posts` is used to index the theme on the site when the preview images are complete, along with determing order.
+`_posts` is used to index the theme on the site when the preview images are complete, along with determing order. Previews can be generated using [thiefshot](https://github.com/TwiRp/thief-screenshot).
