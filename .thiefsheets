@@ -1,0 +1,28 @@
+{
+  "sheet-order" : [
+    "README.md",
+    "index.md"
+  ],
+  "hidden-folders" : [
+    "_includes",
+    "_layouts",
+    "vendor",
+    "themes",
+    "_site",
+    "img-slider",
+    "jquery",
+    "images"
+  ],
+  "folder-order" : [
+    "_includes",
+    "_layouts",
+    "_posts",
+    "vendor",
+    "themes",
+    "_site",
+    "img-slider",
+    "jquery",
+    "images",
+    "howto"
+  ]
+}

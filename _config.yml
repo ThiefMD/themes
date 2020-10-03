@@ -1,0 +1,13 @@
+title: ThiefMD Themes
+email: mwallio@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Directory of Themes available for ThiefMD
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: thiefmd1
+github_username:  ThiefMD
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed

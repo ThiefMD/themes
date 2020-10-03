@@ -1,0 +1,28 @@
+
+
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm" style="width: 350px">
+
+        <div class="slider preview card-img-top" style="width: 350px">
+            <div class="slider responsive">
+                <div class="left image">
+                    <img src="/themes/{{ post.theme }}/{{ post.theme }}-light-preview.png" alt="Light Theme">
+                </div>
+                <div class="right image">
+                    <img src="/themes/{{ post.theme }}/{{ post.theme }}-dark-preview.png" alt="Dark Theme">
+                </div>
+            </div>
+        </div>
+
+      <div class="card-body">
+        <p class="card-text"><strong>{{ post.title }}</strong></p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <a href="/themes/{{ post.theme }}/{{ post.theme }}.ultheme" class="btn btn-sm btn-outline-secondary">Ultheme</a>
+            <a href="/themes/{{ post.theme }}/{{ post.theme }}-dark.xml" class="btn btn-sm btn-outline-secondary">Dark</a>
+            <a href="/themes/{{ post.theme }}/{{ post.theme }}-light.xml" class="btn btn-sm btn-outline-secondary">Light</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

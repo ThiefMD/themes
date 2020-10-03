@@ -1,19 +1,23 @@
+---
+title: ThiefMD Themes
+layout: page
+---
+
 # Themes
 
 These themes are compatible with [ThiefMD](https://thiefmd.com), [Ulysses](https://ulysses.app), [gedit](https://wiki.gnome.org/Apps/Gedit), and other Markdown editors based on [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView). [Learn how to generate your own](/howto) with our [Theme Generator](https://github.com/ThiefMD/theme-generator), and if you feel like sharing it, [send us a pull request](https://github.com/ThiefMD/themes).
 
-## Placement
+## The Latest:
 
-Every theme is placed in its own directory in the /themes/ folder. The folder is structured:
+{% assign index = true %}
+<div class="row">
+{% for post in site.posts limit:3 %}
+<div class="theme_preview">
+    {% include theme_preview.html %}
+</div>
+{% endfor %}
+</div>
 
-```
-themes/
-       theme-name/
-                  theme-name-dark.xml
-                  theme-name-light.xml
-                  theme-name.ultheme
-```
-
-We will generate the preview images after completing the pull request.
-
-`_posts` is used to index the theme on the site when the preview images are complete, along with determing order.
+<script type="text/javascript">
+    $('.slider').slider({ instructionText:"< | >" });
+</script>
