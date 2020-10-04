@@ -11,7 +11,7 @@ These themes are compatible with [ThiefMD](https://thiefmd.com), [Ulysses](https
 
 {% assign index = true %}
 <div class="row">
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:6 %}
 <div class="theme_preview">
     {% include theme_preview.html %}
 </div>
