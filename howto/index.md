@@ -9,6 +9,16 @@ If you're using Ulysses or ThiefMD, the ThiefMD [Theme Generator](https://github
 
 Today, we're going to be using the ThiefMD [Theme Generator](https://github.com/ThiefMD/theme-generator).
 
+## Installing the Theme Generator
+
+Conveniently provided binary builds can be [found in our PPA](https://launchpad.net/~thiefmd/+archive/ubuntu/thiefmd). Alternatively, [build from scratch](https://github.com/ThiefMD/theme-generator#requirements), or [build into your user's flatpak](https://github.com/ThiefMD/theme-generator#building-with-flatpak).
+
+```bash
+sudo add-apt-repository ppa:thiefmd/thiefmd
+sudo apt-get update
+sudo apt-get install io.github.thiefmd.themegenerator
+```
+
 ## ThiefMD Theme Generator Overview
 
 ![](/images/pallet.png)
