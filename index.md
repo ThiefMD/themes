@@ -18,6 +18,8 @@ These themes are compatible with [ThiefMD](https://thiefmd.com), [Ulysses](https
 {% endfor %}
 </div>
 
+### [and even more](/themes)...
+
 <script type="text/javascript">
     $('.slider').slider({ instructionText: "" });
 </script>
