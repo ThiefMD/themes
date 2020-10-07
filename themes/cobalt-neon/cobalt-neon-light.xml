@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<style-scheme id="cobalt-neon-light" name="cobalt-neon-light" version="1.0">
+  <author>ThiefMD</author>
+  <description>Style Scheme generated with poor decisions</description>
+  <style name="text" foreground="#0a121b" background="#eff5f9"/>
+  <style name="selection" foreground="#07090b" background="#90b0c6"/>
+  <style name="current-line" foreground="#090d11"/>
+  <style name="cursor" foreground="#76229e"/>
+  <style name="markdown:header" bold="true" background="#eff5f9" foreground="#76229e" scale="large"/>
+  <style name="def:type" bold="true" background="#eff5f9" foreground="#76229e" scale="large"/>
+  <style name="def:heading" bold="true" background="#eff5f9" foreground="#76229e" scale="large"/>
+  <style name="markdown:code-block" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="markdown:code" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="def:identifier" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="markdown:code-span" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="xml:attribute-name" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="markdown:backslash-escape" background="#eff5f9" foreground="#152630"/>
+  <style name="def:special-char" background="#eff5f9" foreground="#152630"/>
+  <style name="def:comment" background="#eff5f9" foreground="#152630"/>
+  <style name="xml:attribute-value" background="#eff5f9" foreground="#152630"/>
+  <style name="markdown:blockquote-marker" italic="true" background="#eff5f9" foreground="#76229e"/>
+  <style name="def:shebang" italic="true" background="#eff5f9" foreground="#76229e"/>
+  <style name="markdown:blockquote" italic="true" background="#eff5f9" foreground="#76229e"/>
+  <style name="markdown:link-text" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="markdown:url" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="markdown:label" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="markdown:attribute-value" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="def:underlined" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="def:preprocessor" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="def:constant" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="def:net-address" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="def:link-destination" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="def:type" background="#eff5f9" foreground="#b84ab0"/>
+  <style name="markdown:horizontal-rule" background="#eff5f9" foreground="#371427"/>
+  <style name="def:note" background="#eff5f9" foreground="#371427"/>
+  <style name="markdown:line-break" background="#eff5f9" foreground="#371427"/>
+  <style name="markdown:list-marker" background="#eff5f9" foreground="#152630"/>
+  <style name="def:statement" background="#eff5f9" foreground="#152630"/>
+  <style name="markdown:image-marker" background="#eff5f9" foreground="#372414"/>
+  <style name="markdown:emphasis" italic="true" background="#eff5f9" foreground="#142737"/>
+  <style name="def:doc-comment-element" italic="true" background="#eff5f9" foreground="#142737"/>
+  <style name="markdown:strong-emphasis" bold="true" background="#eff5f9" foreground="#142737"/>
+  <style name="def:statement" bold="true" background="#eff5f9" foreground="#142737"/>
+  <style name="def:deletion" strikethrough="true" background="#eff5f9" foreground="#fc272c"/>
+</style-scheme>
