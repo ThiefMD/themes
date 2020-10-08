@@ -17,7 +17,7 @@
             <div class="container">
 
                 <h1>{{ page.title }}</h1>
-
+{% if page.type == "theme" %}
                 <div style="width:50%; float: left"><img src="/themes/{{ page.theme }}/{{ page.theme }}-dark-preview.png" alt="Dark Theme"></div>
 
                 <div style="width:50%; float: right"><img src="/themes/{{ page.theme }}/{{ page.theme }}-light-preview.png" alt="Light Theme"></div>
@@ -27,7 +27,19 @@
                     <a href="/themes/{{ page.theme }}/{{ page.theme }}.ultheme" class="btn btn-sm btn-outline-secondary">Ultheme</a>
                     <a href="/themes/{{ page.theme }}/{{ page.theme }}-dark.xml" class="btn btn-sm btn-outline-secondary">Dark</a>
                     <a href="/themes/{{ page.theme }}/{{ page.theme }}-light.xml" class="btn btn-sm btn-outline-secondary">Light</a>
+                    <a href="/themes/{{ page.theme }}/LICENSE.md" class="btn btn-sm btn-outline-secondary">License</a>
                 </p>
+{% elsif page.type == "export-css" %}
+                <div style="margin: 0 auto 0 auto; max-width:50%;">
+                    <img src="/export-css/{{ page.theme }}/{{ page.theme }}-preview.png" alt="CSS Export Theme">
+                </div>
+
+                <div style="clear: both;"></div>
+                <p>
+                    <a href="/export-css/{{ page.theme }}/{{ page.theme }}.zip" class="btn btn-sm btn-outline-secondary">Export CSS Package</a>
+                </p>
+{% endif %}
+                
 
                 <div>
                     {{ page.content }}
