@@ -67,6 +67,6 @@ Ah yes, that's the vibe I was going for.
 
 Clicking on **Export** will bring up the Export Settings. Here, you can name your Theme, and claim Authorship. **Save Ulysses Theme** will create a file holding both the Light and Dark Themes. This file will work with Ulysses or ThiefMD. **Save Light** will save your light theme as a GtkSourceView Style Scheme. **Save Dark** will save your dark theme.
 
-For submission to [themes.thiefmd.com](https://github.com/ThiefMD/themes), you'll have to save all 3. For personal use, just save what you need.
+For submission to [themes.thiefmd.com](https://github.com/ThiefMD/themes#themes), you'll have to save all 3. For personal use, just save what you need.
 
 Enjoy Creating! [Download Theme Here](/2020/10/02/howtovibes.html)

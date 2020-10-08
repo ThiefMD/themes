@@ -12,6 +12,7 @@ themes/
                   theme-name-dark.xml
                   theme-name-light.xml
                   theme-name.ultheme
+                  LICENSE.md (if applicable)
 ```
 
 Export CSS packages follow a similar pattern
@@ -22,6 +23,7 @@ export-css/
                          preview.css
                          print.css
                          css-theme-name.zip
+                         LICENSE.md (if applicable)
 ```
 
 We will generate the preview images after completing the pull request.
