@@ -14,6 +14,16 @@ themes/
                   theme-name.ultheme
 ```
 
+Export CSS packages follow a similar pattern
+
+```
+export-css/
+          css-theme-name/
+                         preview.css
+                         print.css
+                         css-theme-name.zip
+```
+
 We will generate the preview images after completing the pull request.
 
-`_posts` is used to index the theme on the site when the preview images are complete, along with determing order. Previews can be generated using [thiefshot](https://github.com/TwiRp/thief-screenshot).
+`_posts` is used to index the theme on the site when the preview images are complete, along with determining order. Previews can be generated using [thiefshot](https://github.com/TwiRp/thief-screenshot).
