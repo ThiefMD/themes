@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: cupertino
 title: Cupertino
 datetime: 2020-10-03 10:09

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: tree-breeze
 title: Tree Breeze
 datetime: 2020-10-04 12:13

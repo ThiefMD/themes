@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: serene-dusk
 title: Serene Dusk
 datetime: 2020-10-04 12:13

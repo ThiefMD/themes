@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: cobalt-neon
 title: Cobalt Neon
 datetime: 2020-10-06 20:07

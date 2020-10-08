@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: moving-forward
 title: Moving Forward
 datetime: 2020-10-04 12:40

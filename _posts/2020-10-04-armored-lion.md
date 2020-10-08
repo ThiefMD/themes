@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: armored-lion
 title: Armored Lion
 datetime: 2020-10-04 13:05

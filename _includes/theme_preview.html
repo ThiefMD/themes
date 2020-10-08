@@ -4,6 +4,7 @@
     <div class="card mb-4 shadow-sm" style="width: 350px">
 
         <div class="slider preview card-img-top" style="width: 350px">
+          {% if post.type == "theme" %}
             <div class="slider responsive">
                 <div class="left image theme-preview">
                   <img src="/themes/{{ post.theme }}/{{ post.theme }}-dark-preview.png" alt="Dark Theme">
@@ -12,15 +13,24 @@
                     <img src="/themes/{{ post.theme }}/{{ post.theme }}-light-preview.png" alt="Light Theme">
                 </div>
             </div>
+          {% elsif post.type == "export-css" %}
+              <div class="image theme-preview">
+                <img src="/export-css/{{ post.theme }}/{{ post.theme }}-preview.png" alt="CSS Export Theme">
+              </div>
+          {% endif %}
         </div>
 
       <div class="card-body">
         <p class="card-text"><strong>{{ post.title }}</strong></p>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
-            <a href="/themes/{{ post.theme }}/{{ post.theme }}.ultheme" class="btn btn-sm btn-outline-secondary">Ultheme</a>
-            <a href="/themes/{{ post.theme }}/{{ post.theme }}-dark.xml" class="btn btn-sm btn-outline-secondary">Dark</a>
-            <a href="/themes/{{ post.theme }}/{{ post.theme }}-light.xml" class="btn btn-sm btn-outline-secondary">Light</a>
+            {% if post.type == "theme" %}
+              <a href="/themes/{{ post.theme }}/{{ post.theme }}.ultheme" class="btn btn-sm btn-outline-secondary">Ultheme</a>
+              <a href="/themes/{{ post.theme }}/{{ post.theme }}-dark.xml" class="btn btn-sm btn-outline-secondary">Dark</a>
+              <a href="/themes/{{ post.theme }}/{{ post.theme }}-light.xml" class="btn btn-sm btn-outline-secondary">Light</a>
+            {% elsif post.type == "export-css" %}
+              <a href="/export-css/{{ post.theme }}/{{ post.theme }}.zip" class="btn btn-sm btn-outline-secondary">Export CSS Package</a>
+            {% endif %}
           </div>
         </div>
       </div>

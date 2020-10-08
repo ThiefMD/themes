@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: afterglow
 title: Afterglow
 datetime: 2020-10-06 20:06

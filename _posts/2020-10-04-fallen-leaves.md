@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: fallen-leaves
 title: Fallen Leaves
 datetime: 2020-10-04 13:13

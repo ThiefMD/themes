@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: alucard-ex
 title: Alucard Ex
 datetime: 2020-10-06 20:06

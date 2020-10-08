@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: howtovibes
 title: How To Vibes
 datetime: 2020-10-02 17:53

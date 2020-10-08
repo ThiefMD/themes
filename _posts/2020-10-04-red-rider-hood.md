@@ -1,5 +1,6 @@
 ---
 layout: post
+type: theme
 theme: red-rider-hood
 title: Red Rider Hood
 datetime: 2020-10-04 12:40

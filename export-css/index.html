@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Themes
+title: Export CSS
 ---
 
 {% assign index = true %}
 <div class="row">
 {% for post in site.posts %}
-{% if post.type == "theme" %}
+{% if post.type == "export-css" %}
     <div class="theme_preview">
         {% include theme_preview.html %}
     </div>
