@@ -29,3 +29,21 @@ export-css/
 We will generate the preview images after completing the pull request.
 
 `_posts` is used to index the theme on the site when the preview images are complete, along with determining order. Previews can be generated using [thiefshot](https://github.com/TwiRp/thief-screenshot).
+
+## Post Format
+
+```
+---
+layout: post
+type: [theme|export-css]
+theme: theme-name
+title: Pretty Theme Name
+datetime: YYYY-MM-DD HH:MM
+---
+
+Theme description. If you want to link a license or author or inspiration, you can put it here.
+
+License could be in `/[theme|export-css]/theme-name/license/`.
+
+For CSS, special instructions or notices like page-break before every `h1` could be insightful.
+```
