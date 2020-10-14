@@ -3,7 +3,7 @@ layout: post
 type: theme
 theme: monokai-derived
 title: Monokai Derived
-datetime: 2020-10-03 09:48
+date: 2020-10-03 09:48
 ---
 
 A [Monokai](https://monokai.pro) inspired theme.
