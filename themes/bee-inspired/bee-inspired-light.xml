@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<style-scheme id="bee-inspired-light" name="bee-inspired-light" version="1.0">
+  <author>ThiefMD</author>
+  <description>Style Scheme generated with poor decisions</description>
+  <style name="text" foreground="#333533" background="#dfe9ed"/>
+  <style name="selection" foreground="#191a19" background="#8fa9b3"/>
+  <style name="current-line" foreground="#242524"/>
+  <style name="cursor" foreground="#242423"/>
+  <style name="markdown:header" foreground="#242423" scale="large"/>
+  <style name="def:type" foreground="#242423" scale="large"/>
+  <style name="def:heading" foreground="#242423" scale="large"/>
+  <style name="markdown:code-block"/>
+  <style name="markdown:code"/>
+  <style name="def:identifier"/>
+  <style name="markdown:code-span"/>
+  <style name="xml:attribute-name"/>
+  <style name="markdown:backslash-escape" foreground="#babdb6"/>
+  <style name="def:special-char" foreground="#babdb6"/>
+  <style name="def:comment" foreground="#babdb6"/>
+  <style name="xml:attribute-value" foreground="#babdb6"/>
+  <style name="markdown:blockquote-marker" italic="true" foreground="#555753"/>
+  <style name="def:shebang" italic="true" foreground="#555753"/>
+  <style name="markdown:blockquote" italic="true" foreground="#555753"/>
+  <style name="markdown:link-text" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="markdown:url" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="markdown:label" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="markdown:attribute-value" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="def:underlined" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="def:preprocessor" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="def:constant" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="def:net-address" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="def:link-destination" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="def:type" underline="true" underline-color="#242423" foreground="#242423"/>
+  <style name="markdown:horizontal-rule" bold="true" foreground="#242423"/>
+  <style name="def:note" bold="true" foreground="#242423"/>
+  <style name="markdown:line-break" bold="true" foreground="#242423"/>
+  <style name="markdown:list-marker" bold="true" foreground="#555753"/>
+  <style name="def:statement" bold="true" foreground="#555753"/>
+  <style name="markdown:image-marker" foreground="#242423"/>
+  <style name="markdown:emphasis" italic="true"/>
+  <style name="def:doc-comment-element" italic="true"/>
+  <style name="markdown:strong-emphasis" bold="true"/>
+  <style name="def:statement" bold="true"/>
+  <style name="def:deletion" strikethrough="true" foreground="#babdb6"/>
+</style-scheme>
