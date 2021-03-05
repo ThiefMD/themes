@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<style-scheme id="barely-there-light" name="barely-there-light" version="1.0">
+  <author>ThiefMD</author>
+  <description>Style Scheme generated with poor decisions</description>
+  <style name="text" foreground="#444444" background="#fbfbfb"/>
+  <style name="selection" foreground="#202020" background="#afafaf"/>
+  <style name="current-line" foreground="#2f2f2f"/>
+  <style name="cursor" foreground="#222222"/>
+  <style name="markdown:header" foreground="#222222" scale="large"/>
+  <style name="def:type" foreground="#222222" scale="large"/>
+  <style name="def:heading" foreground="#222222" scale="large"/>
+  <style name="markdown:code-block" bold="true" background="#b6bebf" foreground="#fbfbfb"/>
+  <style name="markdown:code" bold="true" background="#b6bebf" foreground="#fbfbfb"/>
+  <style name="def:identifier" bold="true" background="#b6bebf" foreground="#fbfbfb"/>
+  <style name="markdown:code-span" bold="true" background="#b6bebf" foreground="#fbfbfb"/>
+  <style name="xml:attribute-name" bold="true" background="#b6bebf" foreground="#fbfbfb"/>
+  <style name="markdown:backslash-escape" foreground="#b6bebf"/>
+  <style name="def:special-char" foreground="#b6bebf"/>
+  <style name="def:comment" foreground="#b6bebf"/>
+  <style name="xml:attribute-value" foreground="#b6bebf"/>
+  <style name="markdown:blockquote-marker" italic="true"/>
+  <style name="def:shebang" italic="true"/>
+  <style name="markdown:blockquote" italic="true"/>
+  <style name="markdown:link-text" foreground="#dd4c4f"/>
+  <style name="markdown:url" foreground="#dd4c4f"/>
+  <style name="markdown:label" foreground="#dd4c4f"/>
+  <style name="markdown:attribute-value" foreground="#dd4c4f"/>
+  <style name="def:underlined" foreground="#dd4c4f"/>
+  <style name="def:preprocessor" foreground="#dd4c4f"/>
+  <style name="def:constant" foreground="#dd4c4f"/>
+  <style name="def:net-address" foreground="#dd4c4f"/>
+  <style name="def:link-destination" foreground="#dd4c4f"/>
+  <style name="def:type" foreground="#dd4c4f"/>
+  <style name="markdown:horizontal-rule" foreground="#222222"/>
+  <style name="def:note" foreground="#222222"/>
+  <style name="markdown:line-break" foreground="#222222"/>
+  <style name="markdown:list-marker" foreground="#dd4c4f"/>
+  <style name="def:statement" foreground="#dd4c4f"/>
+  <style name="markdown:image-marker" foreground="#dd4c4f"/>
+  <style name="markdown:emphasis" italic="true"/>
+  <style name="def:doc-comment-element" italic="true"/>
+  <style name="markdown:strong-emphasis" bold="true" foreground="#222222"/>
+  <style name="def:statement" bold="true" foreground="#222222"/>
+  <style name="def:deletion" strikethrough="true" foreground="#b6bebf"/>
+</style-scheme>
