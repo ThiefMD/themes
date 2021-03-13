@@ -1,0 +1,83 @@
+html {
+  text-rendering: optimizeLegibility !important;
+}
+
+h1, h2, h3 {
+  -webkit-hyphens: none !important;
+  -epub-hyphens: none !important;
+  -webkit-hyphens: none !important;
+     -moz-hyphens: none !important;
+          hyphens: none !important;
+}
+body {
+  text-align: justify;
+  font-size: medium;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  page-break-before: always !important;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  page-break-after: avoid !important;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3, h4, h5, h6 {
+  text-align: left;
+}
+
+p {
+  margin: 0;
+}
+
+h1 + p::first-letter {
+  font-weight: bold;
+}
+
+p + p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 100%;
+}
+
+figure img, img {
+  margin: 0;
+  min-width: 100%;
+  max-width: 100%;
+  page-break-inside: avoid;
+}
+
+figcaption {
+  font-size: 66%;
+  text-align: center;
+}
+
+code, pre {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+hr {
+  border: 1px solid;
+  margin: 1.75em;
+}
