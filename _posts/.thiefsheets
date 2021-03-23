@@ -1,5 +1,10 @@
 {
   "sheet-order" : [
+    "2021-03-23-nordic.md",
+    "2021-03-23-systemish.md",
+    "2021-03-17-times-new-novel.md",
+    "2021-03-12-ghost-novel.md",
+    "2021-03-12-serif-novel.md",
     "2021-03-10-violet-neon.md",
     "2021-03-10-burning-lights.md",
     "2021-03-10-ayu.md",
@@ -33,5 +38,7 @@
     "2020-10-02-pumpkinspice.md"
   ],
   "hidden-folders" : [],
-  "folder-order" : []
+  "folder-order" : [],
+  "notes" : "",
+  "icon" : ""
 }
