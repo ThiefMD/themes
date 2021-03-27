@@ -8,6 +8,17 @@ code {
     page-break-inside: avoid !important;
 }
 
+figure {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+figure img, img {
+  max-width: 100%;
+  page-break-inside: avoid !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid !important;
 }
