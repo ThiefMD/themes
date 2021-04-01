@@ -1,6 +1,6 @@
 # Themes
 
-These themes are compatible with [ThiefMD](https://thiefmd.com), [Ulysses](https://ulysses.app), [gedit](https://wiki.gnome.org/Apps/Gedit), and other Markdown editors based on [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView). [Learn how to generate your own](/howto) with our [Theme Generator](https://github.com/ThiefMD/theme-generator), and if you feel like sharing it, [send us a pull request](https://github.com/ThiefMD/themes).
+These themes are compatible with [ThiefMD](https://thiefmd.com), [Ulysses](https://ulysses.app), [gedit](https://wiki.gnome.org/Apps/Gedit), and other Markdown editors based on [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView). [Learn how to generate your own](/howto) with our [Theme Generator](https://flathub.org/apps/details/io.github.thiefmd.themegenerator), and if you feel like sharing it, [send us a pull request](https://github.com/ThiefMD/themes).
 
 ## Placement
 

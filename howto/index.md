@@ -5,9 +5,9 @@ title: How To
 
 # Generating Themes
 
-If you're using Ulysses or ThiefMD, the ThiefMD [Theme Generator](https://github.com/ThiefMD/theme-generator) makes creating themes easy on Linux. For IDE's, [GtkSourceSchemer](https://github.com/jonocodes/GtkSourceSchemer) provides power and control or [Scribes Theme Generator](http://scribes.sourceforge.net/themegenerator.php) provides a quick and easy method. For macOS, [Ulysses](https://ulysses.app/styles) can be used to build themes.
+If you're using Ulysses or ThiefMD, the ThiefMD [Theme Generator](https://flathub.org/apps/details/io.github.thiefmd.themegenerator) makes creating themes easy on Linux. For IDE's, [GtkSourceSchemer](https://github.com/jonocodes/GtkSourceSchemer) provides power and control or [Scribes Theme Generator](http://scribes.sourceforge.net/themegenerator.php) provides a quick and easy method. For macOS, [Ulysses](https://ulysses.app/styles) can be used to build themes.
 
-Today, we're going to be using the ThiefMD [Theme Generator](https://github.com/ThiefMD/theme-generator).
+Today, we're going to be using the ThiefMD [Theme Generator](https://flathub.org/apps/details/io.github.thiefmd.themegenerator).
 
 ## Export CSS
 
@@ -15,12 +15,10 @@ For generating CSS Packages, check out [thiefmd.com/tips/export-styles](https://
 
 ## Installing the Theme Generator
 
-Conveniently provided binary builds can be [found in our PPA](https://launchpad.net/~thiefmd/+archive/ubuntu/thiefmd). Alternatively, [build from scratch](https://github.com/ThiefMD/theme-generator#requirements), or [build into your user's flatpak](https://github.com/ThiefMD/theme-generator#building-with-flatpak).
+[Theme Generator](https://flathub.org/apps/details/io.github.thiefmd.themegenerator) is now available on Flathub. Make sure you've added [flathub](https://flatpak.org/setup) to your system.
 
 ```bash
-sudo add-apt-repository ppa:thiefmd/thiefmd
-sudo apt-get update
-sudo apt-get install io.github.thiefmd.themegenerator
+flatpak install flathub io.github.thiefmd.themegenerator
 ```
 
 ## ThiefMD Theme Generator Overview
