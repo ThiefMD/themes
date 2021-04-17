@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Noto+Sans+JP&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+html {
+  text-rendering: optimizeLegibility !important;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  -webkit-hyphens: none !important;
+  -epub-hyphens: none !important;
+  -webkit-hyphens: none !important;
+     -moz-hyphens: none !important;
+          hyphens: none !important;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p, figure, ul, ol, blockquote {
+  max-width: 90%;
+  margin: 1em auto 1em auto;
+  page-break-inside: avoid;
+}
+
+p img {
+  max-width: 100%;
+  margin: 1em auto 1em auto;
+  page-break-inside: avoid;
+}
+
+blockquote {
+  border-left: 1em solid #fff394;
+}
+
+img, figure {
+  page-break-inside: avoid;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto 0 auto;
+  page-break-after: avoid !important;
+}
+
+h1 {
+  background: #fff394;
+  max-width: 100%;
+  padding: 1em 5% 1em 5%;
+}
+
+h3 {
+  background: #fff394;
+  padding: 1em 5% 1em 1em;
+  display: table;
+  float: right;
+}
+
+h3 + p, h3 + img, h3 + h4, h3 + h1, h3 + h2, h3 + h3, h3 + h5, h3 + h6, h3 + code, h3 + pre, h3 + figure {
+  clear: both;
+}
+
+h2 {
+  background: #fff394;
+  padding: 1em 1em 1em 5%;
+  max-width: 100%;
+  display: table;
+  margin: 0;
+}
+
+h4, h5, h6 {
+  max-width: 90%;
+}
+
+hr {
+  border: .1em solid #273445;
+  margin: 1.75em auto 1.75em auto;
+  max-width: 50%;
+}
+
+pre, tt, code {
+  font-family: 'Fira Mono', monospace;
+  max-width: 90%;
+  margin: 0 auto 0 auto;
+  overflow: auto;
+}
+
+@page {
+  margin: 0;
+}

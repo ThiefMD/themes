@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Noto+Sans+JP&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+html {
+  text-rendering: optimizeLegibility !important;
+}
+
+h1, h2, h3 {
+  -webkit-hyphens: none !important;
+  -epub-hyphens: none !important;
+  -webkit-hyphens: none !important;
+     -moz-hyphens: none !important;
+          hyphens: none !important;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p, figure, ol, ul {
+  max-width: 90%;
+  margin: 1em auto 1em auto;
+  page-break-inside: avoid;
+}
+
+p img {
+  max-width: 100%;
+  margin: 1em auto 1em auto;
+  page-break-inside: avoid;
+}
+
+img, figure {
+  page-break-inside: avoid;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto 0 auto;
+  page-break-after: avoid !important;
+}
+
+h1 {
+  border-bottom: .25em solid #c6262e;
+  max-width: 100%;
+}
+
+h2 {
+  border-bottom: .2em solid #3a9104;
+  max-width: 100%;
+}
+
+h3 {
+  border-bottom: .15em solid #002e99;
+  max-width: 100%;
+}
+
+h4, h5, h6 {
+  max-width: 90%;
+}
+
+hr {
+  border: .1em solid #273445;
+  margin: 1.75em auto 1.75em auto;
+  max-width: 50%;
+}
+
+pre, tt, code {
+  font-family: 'Fira Mono', monospace;
+  max-width: 90%;
+  margin: 0 auto 0 auto;
+  overflow: auto;
+}
