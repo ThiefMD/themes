@@ -61,8 +61,26 @@ h3 {
   float: right;
 }
 
-h3 + p, h3 + img, h3 + h4, h3 + h1, h3 + h2, h3 + h3, h3 + h5, h3 + h6, h3 + code, h3 + pre, h3 + figure {
+
+h3 + p,
+h3 + img,
+h3 + h1,
+h3 + h2,
+h3 + h3,
+h3 + h4,
+h3 + h5,
+h3 + h6,
+h3 + code,
+h3 + pre,
+h3 + figure,
+h3 + ol,
+h3 + ul {
+  padding-top: 1em;
   clear: both;
+}
+
+h3 + p {
+  padding-top: .5em;
 }
 
 h2 {
