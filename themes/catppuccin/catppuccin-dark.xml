@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTf-8"?>
-<style-scheme id="catppuccin-dark-dark" name="catppuccin-dark-dark" version="1.0">
+<style-scheme id="catppuccin-dark" name="catppuccin-dark" version="1.0">
   <author>DazFather</author>
   <description>Style Scheme generated with poor decisions</description>
   <style name="text" foreground="#cdd6f4" background="#1e1e2e"/>
